@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.9 on win32)" generated="20230208 09:15:23.101" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Automation" source="C:\Users\Phoenix\test automation">
+<suite id="s1-s1" name="SQAtest" source="C:\Users\Phoenix\test automation\SQAtest.robot">
+<kw name="Open Browser" type="SETUP">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20230208 09:15:23.144" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230208 09:15:23.142" endtime="20230208 09:15:23.144"/>
+</kw>
+<test id="s1-s1-t1" name="User Fills Out Facebook Registration Form" line="14">
+<status status="FAIL" starttime="20230208 09:15:23.145" endtime="20230208 09:15:23.148">Parent suite setup failed:
+No keyword with name 'Open Browser' found.</status>
+</test>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230208 09:15:23.153" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230208 09:15:23.152" endtime="20230208 09:15:23.153">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230208 09:15:23.129" endtime="20230208 09:15:23.154">Suite setup failed:
+No keyword with name 'Open Browser' found.
+
+Also suite teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</suite>
+<status status="FAIL" starttime="20230208 09:15:23.107" endtime="20230208 09:15:23.157"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Automation">Test Automation</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="SQAtest">Test Automation.SQAtest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230208 09:15:23.135" level="ERROR">Error in file 'C:\Users\Phoenix\test automation\SQAtest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Phoenix\test automation\lib
+  C:\Users\Phoenix\test automation\resources
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\python310.zip
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\DLLs
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib
+  C:\Users\Phoenix\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0
+  C:\Users\Phoenix\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.2544.0_x64__qbz5n2kfra8p0\lib\site-packages
+  C:\Users\Phoenix\.vscode\extensions\d-biehl.robotcode-0.25.1</msg>
+</errors>
+</robot>
